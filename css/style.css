@@ -1,0 +1,184 @@
+header {
+    width: 100%;
+    background: #9BF4D5;
+    padding-right: 3000px;
+	margin-right: -3000px;
+	padding-left: 3000px;
+	margin-left: -3000px;
+	margin-top: -20px;
+}
+
+body{
+    background-color: #29CDB5;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 24px;
+    color: #4AE3B5;
+    padding-top:;
+}
+
+.pad-top {
+    padding-top: 50px;
+}
+
+.pad-left {
+    padding-left: 25px;
+}
+
+h2 {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 18px;
+    
+}
+
+h3 {
+    text-align: left;
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+ol {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: #2A5D67;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+.button-tag {
+    background-color: #fff;
+    border: 2px solid #171332;
+    color: #171332;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Open Sans, Arial, sans-serif;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+.quote {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    color: #29CDB5;
+    font-style: italic;
+}
+
+.wrapper {margin: 20px auto;}
+
+[class*="col-"] {
+  margin-bottom: 20px;
+  min-height: 30px;
+  background: #fff;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+}
+@media all and (max-width: 500px){
+	.no-mobile {display: none;}
+}
+
+@media all and (min-width: 500px) {
+  .wrapper {
+    padding: 0 20px;
+	 background-color: #9BF4D5;
+	 padding-top: 20px;
+	 border-radius: 5px;
+  }
+
+  .row {display: flex;}
+
+  [class*="col-"] {margin-right: 20px;}
+
+  [class*="col-"]:last-child {margin-right: 0;}
+
+  .col-1 {flex: 1;}
+  .col-2 {flex: 2;}
+  .col-3 {flex: 3;}
+  .col-4 {flex: 4;}
+  .col-5 {flex: 5;}
+  .col-6 {flex: 6;}
+  .col-7 {flex: 7;}
+  .col-8 {flex: 8;}
+  .col-9 {flex: 9;}
+  .col-10 {flex: 10;}
+  .col-11 {flex: 11;}
+  .col-12 {flex: 12;}
+}
+@media all and (min-width: 1000px) {
+  .wrapper {max-width: 1000px;}
+}
+
+.no-back {
+	 background-color: #f1f1f1; /* make sure to change this to the background color */
+  }
+  
+.no-shadow {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.warn {background: #FFDB4D;}
+.note {
+	background: #9BF4D5;
+}
+.error {
+	background: #FF5353;
+	color: #fff;
+}
+.correct {
+	background: #33D685;
+	color: #fff;
+}
+.rounded {border-radius: 10px;}
+
+.top-r {border-top-right-radius: 100px;}
+.top-l {border-top-left-radius: 100px;}
+.bottom-r {border-bottom-right-radius: 100px;}
+.bottom-l {border-bottom-left-radius: 100px;}
+
+.rad-l {border-radius: 100px 0 0 100px;}
+.rad-r {border-radius: 0 100px 100px 0;}
+
+.hidden-col {visibility: hidden;}
+
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+
+.back-img {
+	/* Use on columns only! */
+	background-image: url(http://xendox.com/assets/img/header_bg.jpg);
+	height: 150px;
+	background-size:cover;
+	color: #fff; /*change this to the best color with your background */
+}
+
+a.overlay { width: 100%; height:100%; }
+
+
+
