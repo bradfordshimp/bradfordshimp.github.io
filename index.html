@@ -1,23 +1,36 @@
----
-layout: default
----
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    
+<link rel="stylesheet" href="style.css">
+<script src="http://codepen.io/candroo/pen/wKEwRL.js">
 
-<div class="home">
+</script>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</head>
+<body>
+    <div class="wrapper" style="background:#fff">
+        <div class="row">
+            <div class="col-12, no-shadow">
+            <h1 class="text-left">SaaS Advice</h1>
+            <p class="text-left">Curated advice from the web</p>
+            </div>
+        </div>    
+    </div>
+    
+<div class="wrapper">
+	<div class="row">
+		<div class="col-3"><a href="http://www.editey.com/preview/0B6n_tHUWQe93OXR4SEZYbmp0WU0/content.html?email=bradshimp@gmail.com"><h2>Content</h2></a></div>
+		<div class="col-3">
+		    <a href="http://www.editey.com/preview/0B6n_tHUWQe93OXR4SEZYbmp0WU0/Metrics.html?email=bradshimp@gmail.com"><h2>Metrics</h2></a>
+		</div>
+		<div class="col-3"><h2>Marketing</h2></div>
+		<div class="col-3"><h2>Product</h2></div>
+		
+		
+	</div>    
+    
+    
+   
+</body>
+</html>
