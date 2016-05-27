@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    background: #9BF4D5;
+    background: #fff;
     padding-right: 3000px;
 	margin-right: -3000px;
 	padding-left: 3000px;
@@ -52,12 +52,39 @@ ol {
     text-align: left;
 }
 
+ul {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
 li {
     margin-bottom: 15px;
 }
 
+d element to keep the content from dropping below the quote.
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
 .button {
-    background-color: #2A5D67;
+    background-color: #29CDB5;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -135,6 +162,11 @@ li {
   .wrapper {max-width: 1000px;}
 }
 
+.tag {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    background: #9BF4D5;
+    margin-bottom: -20px;
+}
 .no-back {
 	 background-color: #f1f1f1; /* make sure to change this to the background color */
   }
