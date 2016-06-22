@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+</script>
+
+</head>
+<header>
+    <div class="wrapper" style="background:#fff">
+        <div class="row">
+            <div class="col-12, no-shadow">
+            <h1 class="text-left">SaaS Advice</h1>
+            <h2 class="text-left">Curated advice from the web</h2>
+            </div>
+        </div>    
+    </div>
+</header>
+<body>
+    
+    
+<div class="wrapper">
+	<div class="row">
+		<div class="col-5 rounded"><h1>Red flag metrics help you spot churn before it happens.</h1></div>
+		<div class="col-7 rounded"><h1>If you are measuring just one type of churn, you're missing the big picture.</h1></div>
+	</div>	
+</div>
+</body>
+</html>
