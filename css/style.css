@@ -200,6 +200,10 @@ blockquote p {
 	background-color: #FF5722;
 }
 
+.black {
+	color:black;
+}
+
 .warn {background: #FFDB4D;}
 .note {
 	background: #9BF4D5;
