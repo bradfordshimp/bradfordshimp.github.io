@@ -9,7 +9,7 @@ header {
 }
 
 body{
-    background-color: #29CDB5;
+    background-color: #FAF9F0;
     overflow-x: hidden;
 }
 
@@ -149,7 +149,7 @@ blockquote p {
 @media all and (min-width: 600px) {
   .wrapper {
     padding: 0 20px;
-	 background-color: #9BF4D5;
+	 background-color: #EDEBCA;
 	 padding-top: 20px;
 	 border-radius: 5px;
   }
