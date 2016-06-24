@@ -190,6 +190,10 @@ blockquote p {
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
 }
 
+.title {
+	background-color: #121435;
+}
+
 .warn {background: #FFDB4D;}
 .note {
 	background: #9BF4D5;
