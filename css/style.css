@@ -14,10 +14,11 @@ body{
 }
 
 h1 {
-    font-family: Open Sans, Arial, sans-serif;
-    font-size: 34px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 40px;
     color: #ffffff;
     padding-top:;
+    text-align: left;
 }
 
 .pad-top {
@@ -44,6 +45,7 @@ p {
     font-family: Open Sans, Arial, sans-serif;
     font-size: 16px;
     text-align: left;
+    color: white;
 }
 
 ol {
