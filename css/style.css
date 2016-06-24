@@ -194,6 +194,10 @@ blockquote p {
 	background-color: #121435;
 }
 
+.key {
+	background-color: #FF5722;
+}
+
 .warn {background: #FFDB4D;}
 .note {
 	background: #9BF4D5;
